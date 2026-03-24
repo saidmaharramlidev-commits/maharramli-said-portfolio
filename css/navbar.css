@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid #222222;
+    position: fixed;
+    top: 0;
 }
 
 #nameInNavbar {
