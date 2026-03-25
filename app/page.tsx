@@ -27,15 +27,15 @@ export default function Home() {
 
         </div>
 
-        <div id="intro-card-wrapper">
-          <div id="photo-wrapper">
-            <Image id="pictureOfMe" src={pictureOfMe} alt="Picture" />
+        <div className="intro-card-wrapper">
+          <div className="photo-wrapper">
+            <Image className="pictureOfMe" loading='eager' src={pictureOfMe} alt="Picture" />
 
 
           </div>
           <span className="text-gray-300 pt-4 emailIntro" >saidmaharramlidev@gmail.com</span>
 
-          <Link href={'/about'} id="cta-intro-card" className="center">
+          <Link href={'/about'} className="center cta-intro-card">
             About me
 
           </Link>
