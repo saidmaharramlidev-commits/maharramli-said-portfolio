@@ -1,0 +1,159 @@
+#techStack-wrapper {
+    width: 90%;
+    min-height: 500px;
+    justify-self: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+
+
+}
+
+
+.techStack-div {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 20px;
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.languages-wrapper {
+    width: 50%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.techStackName {
+    font-size: 2.2rem;
+}
+
+.arrow-techStack {
+    font-size: 2rem
+}
+
+.language {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    font-size: 2.2rem;
+    color: white;
+
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+/* text under icon */
+.language span {
+    font-size: 0.75rem;
+    color: #aaa;
+    letter-spacing: 0.5px;
+}
+
+/* ✨ hover effect */
+.language:hover {
+    transform: translateY(-6px) scale(1.05);
+    background-color: #222;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* glow on hover (optional but sexy) */
+.language:hover svg {
+    filter: drop-shadow(0 0 6px currentColor);
+}
+
+.stack-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+/* label */
+.stack-label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 0.7rem;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+
+
+@media(max-width:1100px) {
+    .languages-wrapper {
+        width: 60%;
+    }
+}
+
+@media(max-width:900px) {
+    .techStack-div {
+        background-color: black;
+        justify-content: center;
+    }
+
+    .techStackName {
+        color: black;
+        font-size: 0.1rem;
+    }
+
+    .arrow-techStack {
+        color: black;
+        font-size: 0.1rem;
+    }
+
+    .languages-wrapper {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .language {
+        width: 80px;
+        height: 80px;
+        font-size: 1.7rem
+    }
+
+
+
+}
+
+@media(max-width:600px) {
+    .language {
+        width: 70px;
+        height: 70px;
+        font-size: 1.5rem
+    }
+
+    .language span {
+        font-size: 0.65rem;
+    }
+
+
+
+}

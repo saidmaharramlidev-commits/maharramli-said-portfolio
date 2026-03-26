@@ -99,7 +99,7 @@
     font-weight: 500;
 }
 
-#headerAbout {
+.headerAbout {
     color: #D4AF37;
     font-weight: 500;
 }
@@ -165,7 +165,7 @@
 
 @media(max-width:400px) {
     .card-about {
-        width: 140px;
+        width: 145px;
     }
 
     .card-about span {

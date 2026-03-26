@@ -13,7 +13,7 @@ function page() {
             <div id="mainPartAbout">
 
                 <div id="leftAbout-wrapper">
-                    <span id="headerAbout">About me</span>
+                    <span className="headerAbout">About me</span>
                     <h1 className="text-white questionOfAbout">Who I am beyond code</h1>
                     <p>I’m a 19-year-old frontend developer from Azerbaijan who enjoys turning simple ideas into clean, interactive experiences. I speak Azerbaijani and conversational English, and I focus on minimal design, smooth UI, and building things that actually work. Most of my projects come from my own ideas, where I aim to make something simple feel complete and polished. Right now, I’m focused on improving my skills and creating more meaningful digital products.</p>
 

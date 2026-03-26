@@ -9,6 +9,7 @@ import { Provider } from 'react-redux'
 import '@/css/navbar.css'
 import '@/css/homePage.css'
 import '@/css/aboutPage.css'
+import '@/css/techStack.css'
 
 
 const metadata: Metadata = {
