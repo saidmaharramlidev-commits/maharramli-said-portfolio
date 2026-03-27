@@ -5,7 +5,11 @@ import me from "@/public/me.jpg"
 import Image from "next/image"
 import Link from "next/link"
 
+
 function page() {
+
+
+
     return (
         <div id="mainAboutPage">
             <Navbar />

@@ -1,3 +1,6 @@
+'use client'
+
+
 import Navbar from "@/components/Navbar"
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
@@ -13,7 +16,10 @@ import Tooltip from '@mui/material/Tooltip';
 
 
 
+
 function page() {
+
+
     return (
         <div id='mainTechStack'>
             <Navbar />

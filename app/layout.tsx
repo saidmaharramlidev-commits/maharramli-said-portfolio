@@ -10,6 +10,8 @@ import '@/css/navbar.css'
 import '@/css/homePage.css'
 import '@/css/aboutPage.css'
 import '@/css/techStack.css'
+import '@/css/projectsPage.css'
+import '@/css/projectInfo.css'
 
 
 const metadata: Metadata = {

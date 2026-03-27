@@ -1,9 +1,19 @@
+'use client'
+
+
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import pictureOfMe from '@/public/me.jpg'
 import Link from "next/link";
 
 export default function Home() {
+
+
+
+
+
+
+
   return (
     <div id="mainHomePage">
       <Navbar />

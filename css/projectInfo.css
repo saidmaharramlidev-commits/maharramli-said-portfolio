@@ -1,0 +1,24 @@
+.info-project-wrapper {
+    width: 90%;
+    min-height: 500px;
+    justify-self: center;
+    margin-top: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-site-picture {
+    width: 40%;
+}
+
+.info-picture {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.right-site-info {
+    width: 50%;
+}
