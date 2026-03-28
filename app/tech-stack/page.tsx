@@ -27,7 +27,6 @@ function page() {
 
 
             <div id="techStack-wrapper">
-                <span className="headerAbout">Tech Stack</span>
 
                 <div className="techStack-div">
                     <h1 className="text-white techStackName">Tech Stack</h1>

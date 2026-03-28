@@ -195,7 +195,7 @@ function page() {
                                     name='email'
                                     value={formik.values.email}
                                     onChange={formik.handleChange}
-                                    error={formik.touched.name && Boolean(formik.errors.name)}
+                                    error={formik.touched.email && Boolean(formik.errors.email)}
                                     onBlur={formik.handleBlur}
                                     label="Email" type='email' sx={{ width: "90%" }} />
 

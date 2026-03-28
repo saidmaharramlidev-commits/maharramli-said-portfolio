@@ -61,6 +61,7 @@
     overflow: hidden;
 
     transition: all 0.3s ease;
+    z-index: -1;
 }
 
 /* Optional subtle top line */

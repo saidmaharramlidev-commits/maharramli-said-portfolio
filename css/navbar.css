@@ -80,7 +80,7 @@
         border-bottom-right-radius: 30px;
         border-right: 1px solid #D4AF37;
         transition: all 0.5s;
-        z-index: 100;
+        z-index: 1000;
     }
 
     #navbarEndpoints-wrapper.navbarOpened {
