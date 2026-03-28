@@ -9,10 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.9",
     "@reduxjs/toolkit": "^2.11.2",
+    "emailjs": "^5.0.0",
     "formik": "^2.4.9",
     "next": "16.2.1",
     "react": "19.2.4",

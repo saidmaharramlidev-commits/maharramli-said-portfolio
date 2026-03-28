@@ -1,0 +1,160 @@
+.contact-wrapper {
+    width: 90%;
+    margin-top: 100px;
+    min-height: 600px;
+    justify-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.left-contact-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.left-contact-wrapper h1 {
+    font-size: 2rem;
+}
+
+.left-contact-wrapper p {
+    font-size: 1.2rem;
+    color: silver;
+}
+
+
+
+
+
+
+#contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+#textFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+#ctaOfContact {
+    margin-top: 27px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-media {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #222222;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.3s ease;
+}
+
+.social-media-icon {
+    font-size: 1.2rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-media:hover {
+    transform: translateY(-5px);
+    background-color: #333;
+}
+
+.social-media:hover .social-media-icon {
+    transform: scale(1.2);
+}
+
+
+@media(max-width:1000px) {
+    .contact-wrapper {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding-bottom: 50px;
+    }
+
+    .left-contact-wrapper {
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media(max-width:700px) {
+
+
+    .left-contact-wrapper {
+        width: 90%;
+    }
+}
+
+@media(max-width:500px) {
+    .social-media {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-media-icon {
+        font-size: 1rem;
+    }
+
+    .left-contact-wrapper h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-contact-wrapper p {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media(max-width:500px) {
+    .left-contact-wrapper {
+        width: 95%;
+    }
+}

@@ -4,12 +4,16 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 export interface CounterState {
     isNavbarOpen: boolean
     navbarEndpoint: string
+    formLoading: boolean
+    isFormSubmitted: boolean
 
 }
 
 const initialState: CounterState = {
     isNavbarOpen: false,
-    navbarEndpoint: 'home'
+    navbarEndpoint: 'home',
+    formLoading: false,
+    isFormSubmitted: false
 
 }
 
@@ -22,6 +26,13 @@ export const counterSlice = createSlice({
         },
         setNavEndpoint: (state, action: PayloadAction<string>) => {
             state.navbarEndpoint = action.payload
+        },
+        setFormLoading: (state, action: PayloadAction<boolean>) => {
+            state.formLoading = action.payload
+
+        },
+        setFormSubmitted: (state, action: PayloadAction<boolean>) => {
+            state.isFormSubmitted = action.payload
         }
 
 
@@ -29,6 +40,6 @@ export const counterSlice = createSlice({
     },
 })
 
-export const { setNavbar, setNavEndpoint } = counterSlice.actions
+export const { setNavbar, setNavEndpoint, setFormLoading, setFormSubmitted } = counterSlice.actions
 
 export default counterSlice.reducer

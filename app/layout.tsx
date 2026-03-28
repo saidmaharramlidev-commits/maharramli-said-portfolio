@@ -12,6 +12,7 @@ import '@/css/aboutPage.css'
 import '@/css/techStack.css'
 import '@/css/projectsPage.css'
 import '@/css/projectInfo.css'
+import '@/css/contactPage.css'
 
 
 const metadata: Metadata = {
