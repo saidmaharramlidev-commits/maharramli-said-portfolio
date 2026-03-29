@@ -1,6 +1,6 @@
 #techStack-wrapper {
     width: 90%;
-    min-height: 600px;
+    min-height: 650px;
     justify-self: center;
     margin-top: 100px;
     display: flex;
@@ -23,7 +23,6 @@
     padding: 0 20px;
     background: rgba(17, 17, 17, 0.6);
     backdrop-filter: blur(10px);
-    z-index: -1;
 }
 
 .languages-wrapper {

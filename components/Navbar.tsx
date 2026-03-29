@@ -61,6 +61,7 @@ function Navbar() {
             <h1 id="nameInNavbar">Said Maharramli</h1>
 
             <div id="navbarEndpoints-wrapper" className={isNavbarOpen ? 'navbarOpened' : ''} >
+
                 {links.map(link => (
                     <Link
                         key={link.href}

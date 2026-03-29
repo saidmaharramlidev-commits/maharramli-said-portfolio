@@ -1,6 +1,6 @@
 #mainPartAbout {
     width: 90%;
-    min-height: 600px;
+    min-height: 650px;
     justify-self: center;
     margin-top: 100px;
     justify-content: space-around;
@@ -61,7 +61,6 @@
     overflow: hidden;
 
     transition: all 0.3s ease;
-    z-index: -1;
 }
 
 /* Optional subtle top line */

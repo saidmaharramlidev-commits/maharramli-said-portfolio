@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background: radial-gradient(circle at 20% 30%, #111 0%, #000 60%);
 }
 
 .center {

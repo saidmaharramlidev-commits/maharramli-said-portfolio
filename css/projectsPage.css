@@ -7,7 +7,7 @@
 .mainProjects {
     width: 90%;
     margin-top: 100px;
-    min-height: 600px;
+    min-height: 650px;
     justify-self: center;
 }
 
@@ -36,7 +36,6 @@
         0 12px 20px rgba(0, 0, 0, 0.35);
     transition: all 0.5s ease;
     padding-bottom: 40px;
-    z-index: -1;
 
 }
 
