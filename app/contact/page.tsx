@@ -189,7 +189,9 @@ function page() {
                                     value={formik.values.surname}
                                     onChange={formik.handleChange}
                                     onBlur={formik.handleBlur}
+                                    error={formik.touched.surname && Boolean(formik.errors.surname)}
                                     label="Surname" type='text' sx={{ width: "90%" }} />
+
 
                                 <TextField
                                     name='email'
@@ -206,6 +208,7 @@ function page() {
                                     onBlur={formik.handleBlur}
                                     rows={4} multiline
                                     label="Message"
+                                    error={formik.touched.message && Boolean(formik.errors.message)}
                                     type='text'
                                     sx={{ width: "90%" }} />
 

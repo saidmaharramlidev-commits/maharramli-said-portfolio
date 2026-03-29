@@ -18,7 +18,7 @@ export const formScheme = yup.object().shape({
         .required("Email is required"),
 
     message: yup.string()
-        .min(10, "Message must be at least 10 characters")
+        .min(5, "Message must be at least 5 characters")
         .max(500, "Message is too long")
         .required("Message is required"),
 
