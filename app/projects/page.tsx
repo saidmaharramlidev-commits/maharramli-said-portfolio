@@ -7,6 +7,7 @@ import later from '@/public/later.png'
 import saga from '@/public/sagaHero.png'
 import travelJoy from '@/public/traveljoy.png'
 import afterReel from '@/public/AfterReel.png'
+import mcdonalds from '@/public/mcdonalds.png'
 import Image from "next/image"
 import { Button } from "@mui/material"
 
@@ -34,6 +35,14 @@ function page() {
                 <span className="headerAbout">Projects</span>
 
                 <div className="projects-wrapper">
+
+                    <div className="project" >
+                        <Image className="projectPic" src={mcdonalds} alt="" />
+                        <h1>Mcdonald's Remake</h1>
+                        <p>I rebuilt the McDonald’s Azerbaijan website as a front-end project, focusing on fixing UI/UX inconsistencies and improving overall usability.I redesigned key parts with my own modern design choices to create a cleaner and more engaging experience.</p>
+                        <Button href="https://mcdonalds-remake.vercel.app/" variant="contained" sx={{ backgroundColor: "#D4AF37", color: "black" }}>Go to project</Button>
+
+                    </div>
 
                     <div className="project" >
                         <Image className="projectPic" src={Construction} alt="" />
