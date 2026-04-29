@@ -2,13 +2,13 @@
 
 
 import Navbar from "@/components/Navbar"
-import Construction from '@/public/construction.png'
 import later from '@/public/later.png'
 import saga from '@/public/sagaHero.png'
 import travelJoy from '@/public/traveljoy.png'
 import afterReel from '@/public/AfterReel.png'
 import mcdonalds from '@/public/mcdonalds.png'
 import Image from "next/image"
+import stuckLife from '@/public/stuckLife.png'
 import { Button } from "@mui/material"
 
 
@@ -44,13 +44,7 @@ function page() {
 
                     </div>
 
-                    <div className="project" >
-                        <Image className="projectPic" src={Construction} alt="" />
-                        <h1>Construction Site</h1>
-                        <p>I developed a responsive front-end recreation of the cortexconstruction.az website.This project displays my skills in component-based architecture, responsive design, and professional website structuring.</p>
-                        <Button href="https://said-construction.vercel.app/" variant="contained" sx={{ backgroundColor: "#D4AF37", color: "black" }}>Go to project</Button>
 
-                    </div>
 
                     <div className="project">
                         <Image className="projectPic" src={saga} alt="" />
@@ -80,6 +74,13 @@ function page() {
                         <h1>Later</h1>
                         <p>A self-initiated project built to demonstrate my frontend development skills through a clean user experience. While it explores the cost of waiting, the main focus is on performance, UI design, and turning a simple concept into a polished digital product.</p>
                         <Button href="https://said-later.vercel.app/" variant="contained" sx={{ backgroundColor: "#D4AF37", color: "black" }}>Go to project</Button>
+
+                    </div>
+                    <div className="project" >
+                        <Image className="projectPic" src={stuckLife} alt="" />
+                        <h1>StuckLife</h1>
+                        <p>Created a modern idea-generation platform that delivers practical, step-by-step concepts with difficulty, time, and cost insights. Emphasizes user engagement through minimal design, category targeting, and controlled daily usage.</p>
+                        <Button href="https://stucklife.vercel.app" variant="contained" sx={{ backgroundColor: "#D4AF37", color: "black" }}>Go to project</Button>
 
                     </div>
 
