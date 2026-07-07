@@ -46,13 +46,7 @@ function page() {
 
 
 
-                    <div className="project">
-                        <Image className="projectPic" src={saga} alt="" />
-                        <h1>Saga Website</h1>
-                        <p>This project is called Saga and inspired by ega.az.This project highlights my ability to build modern user interfaces using component-based architecture, implement fully responsive design principles, and structure content in a clear and scalable way</p>
-                        <Button href="https://said-saga.vercel.app/" variant="contained" sx={{ backgroundColor: "#D4AF37", color: "black" }}>Go to project</Button>
 
-                    </div>
 
                     <div className="project" >
                         <Image className="projectPic" src={travelJoy} alt="" />
